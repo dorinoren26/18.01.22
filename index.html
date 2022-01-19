@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,51 @@
     <title>Document</title>
     <link rel="stylesheet" href="h.w.css">
 </head>
+
 <body>
-   <h1>form</h1>
+    <h1>תביעה לתשלום מענק
+        לחייל משוחרר</h1>
+    <form method="post">
+        <h2> פרטי התובע</h2>
+        <div>
+            <label for="fname"> שם פרטי:</label>
+            <br>
+            <input type="name" id="fname" name="fname" placeholder="חובה" required>
+        </div>
+
+        <div>
+            <label for="lname">שם משפחה: </label>
+            <br>
+            <input type="name" id="lname" name="lname" placeholder="חובה" required>
+        </div>
+        <div>
+            <label for="date">תאריך לידה</label>
+            <br>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="number">תעודת זהות</label>
+            <br>
+            <input type="number" id="number" name="id">
+        </div>
+        <h2>כתובת (הרשומה במשרד הפנים)</h2>
+        <div>
+            <label for="text">רחוב/תא דואר</label>
+            <br>
+            <input type="text" name="text" id="text" placeholder="רחוב">
+
+            <input type="text" name="text" id="text" placeholder="מס' בית">
+
+            <input type="text" name="text" id="text" placeholder="כניסה">
+            <input type="text" name="text" id="text" placeholder="דירה">
+
+        </div>
+        <div>
+
+            <label for="myfile">העלת קבצים טופס1051</label>
+            <input type="file" name="file" id="file">
+        </div>
+    </form>
 </body>
+
 </html>
