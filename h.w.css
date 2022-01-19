@@ -1,3 +1,29 @@
 body {
-  background-color: rgb(255, 203, 246);
+  background-color: rgb(223, 215, 221);
+  direction: rtl;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: justify;
+  display: block;
+  background-color: rgb(145, 143, 138);
+  font-size: 18px;
+}
+form {
+  background-color: rgb(192, 188, 183);
+  border-radius: 20px;
+  border: solid 3px rgb(125, 126, 128);
+  width: 900px;
+  text-align: center;
+  padding: 20px 20px 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+div {
+  display: inline-block;
+}
+input {
+  border-radius: 20px;
 }
